@@ -7,7 +7,7 @@ image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 categories:
   - subcat
-    - test1
+  - test1
 ---
 
 # Subcat-Test1-post2

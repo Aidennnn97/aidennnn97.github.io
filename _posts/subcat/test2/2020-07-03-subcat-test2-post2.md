@@ -9,7 +9,7 @@ description: >
 sitemap: false
 categories:
   - subcat
-    - test2
+  - test2
 ---
 
 # Subcat-Test2-post2

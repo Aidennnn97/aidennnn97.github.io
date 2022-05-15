@@ -7,7 +7,7 @@ sitemap: false
 hide_last_modified: true
 categories:
   - subcat
-    - test1
+  - test1
 ---
 
 # Subcat-Test1-post1
