@@ -72,10 +72,10 @@
 }
 
 .slick-prev {
-  left: -25px;
+  left: -55px;
 }
 [dir='rtl'] .slick-prev {
-  right: -25px;
+  right: -55px;
   left: auto;
 }
 .slick-prev:before {
@@ -86,11 +86,11 @@
 }
 
 .slick-next {
-  right: -25px;
+  right: -40px;
 }
 [dir='rtl'] .slick-next {
   right: auto;
-  left: -25px;
+  left: -40px;
 }
 .slick-next:before {
   content: url(right.png);
