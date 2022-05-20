@@ -49,10 +49,10 @@ author:
 menu:
   - title: About
     url: /about/
+  - title: Posts
+    url: /posts/
   - title: ex1
     url: /ex1/
-  - title: ex2
-    url: /ex2/
   - title: Subcat
     url: /subcat/
     submenu:

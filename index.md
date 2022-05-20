@@ -5,9 +5,10 @@ hide_description: false
 ---
 
 # About
-
 <!--author-->
 
+<br>
+<br>
 
 # Introduction
 ---
@@ -27,5 +28,3 @@ Github pages 블로그를 운영하는 중입니다.💻
       $('.me').slick();
     });
   </script>
-
----
