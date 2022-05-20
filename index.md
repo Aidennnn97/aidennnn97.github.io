@@ -8,7 +8,6 @@ hide_description: false
 <!--author-->
 
 <br>
-<br>
 
 # Introduction
 ---
