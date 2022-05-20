@@ -30,7 +30,7 @@ description: >
 tagline: Today I Learn
 
 # A list of keywords for your blog
-keywords: [Java, Python, Web, DB]
+keywords: [Java, Python]
 
 # A (square) logo for your site.
 # If provided, it will be shown at the top of the sidebar.
@@ -84,7 +84,7 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # Customizaton

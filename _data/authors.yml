@@ -2,12 +2,14 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `author1` to your shortname.
 author1:
-  name: MinSung Kim
-  email: aidennnn97@gmail.com
+  name:           MinSung Kim
+  email:          aidennnn97@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about: |
+  about: 
+  |
+
     Welcome to Aiden's Blog!
 
     Please check my  [CV](/assets/CV.pdf)
