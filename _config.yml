@@ -40,7 +40,7 @@ logo: /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name: MinSungKim
+  name: MinSungKimg
   email: aidennnn97@gmail.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -84,7 +84,7 @@ paginate_path: /:num/
 # Theme
 # ---------------------------------------------------------------------------------------
 
-#theme: jekyll-theme-hydejack
+theme: jekyll-theme-hydejack
 remote_theme: hydecorp/hydejack@v9
 
 # Customizaton
