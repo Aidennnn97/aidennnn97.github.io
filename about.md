@@ -11,8 +11,8 @@ hide_description: true
 
 ## Introduction
 ---
-Github pages 블로그를 운영하는 중입니다. 💻  
-컴퓨공학 학사 과정 중입니다. ✏️✒️
+Github Pages 블로그를 운영하는 중입니다. 💻  
+컴퓨터공학 학사 과정 중입니다. ✏️✒️
 
  💡__ㅁㄴㅇㄹ__ 💡
 
