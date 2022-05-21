@@ -6,29 +6,39 @@ hide_description: true
 
 ## About
 <!--author-->
----
+
 <br>
-<center style="font-size:170%;font-weight:bold">김민성</center>
-<center>Computer Engineering</center>
-<center>Catholic University of Daegu</center>
-<center>13-13, Hayang-ro, Hayang-eup, Gyeongsan-si, Gyeongsangbuk-do, Republic of Korea, 38430</center>
+
+## Introduction
+---
+Github pages 블로그를 운영하는 중입니다. 💻  
+컴퓨공학 학사 과정 중입니다. ✏️✒️
+
+ 💡__ㅁㄴㅇㄹ__ 💡
+
+ 저의 📚**관심분야**는 다음과 같습니다.
+
+> 📝 Java, Python
+
+ 저에게 조금 관심이 생기셨다면 [CV](/assets/CV.pdf)를 확인해주시면 감사하겠습니다! 😃
 
 ## Personal Data
 
 ---
 
-> 1997.09.30<br>
-> Phone: 010-2858-9442 <br>
-> Email: aidennnn97@gmail.com <br>
+> 1997.09.30
+> 
+> Email: aidennnn97@gmail.com
+> 
 > Github : [https://github.com/aidennnn97](https://github.com/aidennnn97)
 
 ## Education
 
 ---
 
-> Mar.2016 ~ Feb.2023 대구가톨릭대학교
+> Mar.2016 ~ Feb.2023
 >
-> IT공학부 - 컴퓨터공학과 (Computer Engineering)
+> IT공학부 - 컴퓨터공학과
 
 <!-- ## Work Experiences
 
@@ -39,5 +49,12 @@ hide_description: true
 
 ---
 
--Language : Java, Python <br>
--Certification : SQLD, 정보처리기사
+> Language : Java, Python
+> 
+> Certification : 정보처리기사, SQLD
+
+  <script>
+    $(document).ready(function(){
+      $('.me').slick();
+    });
+  </script>
