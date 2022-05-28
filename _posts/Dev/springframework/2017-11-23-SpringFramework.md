@@ -1,13 +1,16 @@
 ---
 layout: post
-title: Example2
+title: SpringFramework
 description: >
   A page showing how regular markdown content is styled in Hydejack.
 image: /assets/img/blog/example-content-ii.jpg
 sitemap: false
 categories:
-  - ex1
+  - dev
+  - springframework
 ---
+
+# 스프링 프레임워크2
 
 There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
 

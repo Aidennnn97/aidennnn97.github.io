@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Subcat-test2-post2
+title: Dev-python-post2
 image:
   path: /assets/img/blog/jeremy-bishop@0,5x.jpg
 description: >
@@ -8,11 +8,11 @@ description: >
   Modernized design, big headlines, and big new features.
 sitemap: false
 categories:
-  - subcat
-  - test2
+  - dev
+  - python
 ---
 
-# Subcat-Test2-post2
+# Dev-Python-post2
 
 Version 9 is the most complete version of Hydejack yet.
 {:.lead}

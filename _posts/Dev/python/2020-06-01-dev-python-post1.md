@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Subcat-test2-post1
+title: Dev-python-post1
 description: >
   A page showing Hydejack-specific markdown content.
 image:
@@ -14,11 +14,11 @@ related_posts:
   - /example/2012-02-07-example-content/
 sitemap: false
 categories:
-  - subcat
-  - test2
+  - dev
+  - python
 ---
 
-# Subcat-Test2-post1
+# Dev-python-post1
 
 Hydejack offers a few additional features to markup your markdown.
 Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,

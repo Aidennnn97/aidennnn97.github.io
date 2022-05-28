@@ -1,16 +1,16 @@
 ---
 layout: post
-title: Subcat-test1-post1
+title: SpringFramework
 description: >
   Howdy! This is an example blog post that shows several types of HTML content supported in this theme.
 sitemap: false
 hide_last_modified: true
 categories:
-  - subcat
-  - test1
+  - dev
+  - springframework
 ---
 
-# Subcat-Test1-post1
+# 스프링 프레임워크
 
 Cum sociis natoque penatibus et magnis <a href="#">dis parturient montes</a>, nascetur ridiculus mus. _Aenean eu leo quam._ Pellentesque ornare sem lacinia quam venenatis vestibulum. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.
 

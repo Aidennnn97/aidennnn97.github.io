@@ -27,7 +27,7 @@ description: >
   GitBlog
 
 # A shorter description for the sidebar.
-tagline: Today I Learn
+tagline: Today I Learned
 
 # A list of keywords for your blog
 keywords: [Java, Python]
@@ -51,15 +51,15 @@ menu:
     url: /about/
   - title: Posts
     url: /posts/
-  - title: ex1
-    url: /ex1/
-  - title: Subcat
-    url: /subcat/
+  - title: Dev
+    url: /dev/
     submenu:
-      - title: Test1
-        url: /test1/
-      - title: Test2
-        url: /test2/
+      - title: Spring Framework
+        url: /springframework/
+      - title: Python
+        url: /python/
+  - title: Blog
+    url: /blog/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -423,6 +423,6 @@ tipue_search:
     pages: false
     collections: []
   exclude:
-    files: []
+    files: [search.html, index.html, tags.html]
     categories: []
     tags: []
