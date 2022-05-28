@@ -18,7 +18,7 @@ categories:
   - python
 ---
 
-# Dev-python-post1
+# 파이썬2
 
 Hydejack offers a few additional features to markup your markdown.
 Don't worry, these are merely CSS classes added with kramdown's `{:...}` syntax,

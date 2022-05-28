@@ -12,7 +12,7 @@ categories:
   - python
 ---
 
-# Dev-Python-post2
+# 파이썬3
 
 Version 9 is the most complete version of Hydejack yet.
 {:.lead}
