@@ -12,8 +12,10 @@ description: >
 
 ## Categories
 
-- [Springframework]{:.heading.flip-title} --- 스프링 프레임워크
-- [Python]{:.heading.flip-title} --- 파이썬
+- [JSPServlet]{:.heading.flip-title} --- JSP/Servlet
+- [SpringFramework]{:.heading.flip-title} --- Spring Framework
+- [Python]{:.heading.flip-title} --- Python
 
-[Springframework]: /springframework/
+[JSPServlet]: /jspservlet/
+[SpringFramework]: /springframework/
 [Python]: /python/

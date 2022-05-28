@@ -4,10 +4,10 @@ category: Python
 bigtitle: Python
 slug: python
 description: >
-  파이썬
+  Python
 
 related_posts:
   -
 list: true
-order: 2
+order: 3
 ---
