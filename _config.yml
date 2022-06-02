@@ -428,3 +428,5 @@ tipue_search:
     files: [search.html, index.html, tags.html]
     categories: []
     tags: []
+
+future: true  # 현재 날짜보다 미래의 글작성 가능.
