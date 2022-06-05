@@ -66,6 +66,42 @@ MVC 패턴을 적용하여 프로젝트를 만들 때 Model1 기법과 Model2 �
   -  서블릿B는 작업을 수행하고 나서 다시 서블릿A로 제어권을 넘긴다.
   -  서블릿A는 나머지 작업을 수행한 후 응답을 완료한다.
 
+## 예외 페이지
+
+### page지시자를 이용한 예외 처리
+
+~~~
+// 예외 발생 페이지
+//현재 파일에서 예외가 발생하면 errorPage.jsp로 이동하라고 명시. 
+<%@ page errorPage = "errorPage.jsp" %>
+~~~
+
+~~~
+//에러 페이지
+<%@ page isErrorPage = "true" %> 
+<% response.setStatus(200); %> //에러가 발생한 페이지가 아니라 에러가 발생하면 처리해주는 정상 페이지
+<%= exception.getMessage() %>
+~~~
+
+### web.xml파일을 이용한 예외 처리
+
+~~~
+//404에러 발생시 error404.jsp 페이지로 이동
+<error-page>
+  <error-code>404</error-code>
+  <location>/error404.jsp</location>
+</error-page>
+//500에러 발생시 error500.jsp 페이지로 이동
+<error-page>
+  <error-code>500</error-code>
+  <location>/error500.jsp</location>
+</error-page>
+~~~
+
+![그림](/assets/img/jspservlet/0603/0603-21.png){: width="500" height="500"}
+
+서블릿에서 예외발생시 서블릿에서 처리하지말고 에러페이지를 따로만든다. 그래서 서블릿에서 예외발생시 즉시 에러페이지로 위임하고 에러페이지에서 응답하여 완료시키도록 한다. 이때 에러를 처리한다음 서블릿으로 다시 돌아갈 필요가 없기 때문에 이때는 포워딩을 쓰는게 좋다.
+
 🔍 **참고자료**
 
 엄진영 유튜브 : <https://www.youtube.com/c/%EC%97%84%EC%A7%84%EC%98%81>

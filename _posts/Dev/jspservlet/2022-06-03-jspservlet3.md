@@ -57,6 +57,9 @@ AppInitServlet이라는 서비스를 만들어 Connection을 미리 준비하게
 
 ## HttepSession의 활용
 
+세션은 쿠키와 마찬가지로 서버와의 관계를 유지하기 위한 수단이다. 단, 쿠키와 달리 클라이언트의 특정 위치에 저장되는 것이 아니라, 서버상에 객체로 존재한다. 따라서 세션은 서버에서만 접근이 가능하여 보안이 좋고, 저장할 수 있는 데이터에 한계가 없다.
+세션은 클라이언트의 요청이 발생하면 자동생성 된다. 그리고 session이라는 내부 객체를 지원하여 세션의 속성을 설정 할 수 있다.
+
 ### HttpSession 준비
 
 ![그림](/assets/img/jspservlet/0603/0603-17.png){: width="500" height="500"}
@@ -87,6 +90,28 @@ Member member = (Member)session.getAttribute("member");
 ~~~
 HttpSession.session = request.getSession();
 session.invalidate();
+~~~
+
+## 쿠키
+
+웹브라우저에서 서버로 어떤 데이터를 요청하면, 서버측에서는 알맞은 로직을 수행한 후 데이터를 웹브라우저에 응답한다. 그리고, 서버는 웹브라우저와의 관계를 종료한다. 응답 후 관계를 끊는 것은 http프로토콜의 특징이다.
+연결이 끊겼을 때 어떤 정보를 지속적으로 유지하기 위한 수단으로 쿠키라는 방식을 사용한다.
+쿠키는 서버에서 생성하여, 서버가 아닌 클라이언트측에 특정 정보를 저장하고 서버에 요청 할 때 마다 쿠키의 속성값을 참조 또는 변경 할 수 있다.
+
+~~~
+<%
+//쿠키생성
+Cookie cookie = new Cookie("CookieName", "CookieValue");
+cookie.setMaxAge(60*60); //쿠키 유효기간을 설정
+response.addCookie(cookie); //response객체에 쿠키 탑재
+%>
+~~~
+
+~~~
+Cookie[] cookies = request.getCookies();
+...
+String str = cookies[i].getName();
+...
 ~~~
 
 ### 정리
